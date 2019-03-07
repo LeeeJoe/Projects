@@ -1,0 +1,8 @@
+C:\#Works\Xxx\ChangeArray\ChangeArray\bin\Debug\ChangeArray.exe.config
+C:\#Works\Xxx\ChangeArray\ChangeArray\bin\Debug\ChangeArray.exe
+C:\#Works\Xxx\ChangeArray\ChangeArray\bin\Debug\ChangeArray.pdb
+C:\#Works\Xxx\ChangeArray\ChangeArray\obj\Debug\ChangeArray.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\ChangeArray\ChangeArray\obj\Debug\ChangeArray.exe
+C:\#Works\Xxx\ChangeArray\ChangeArray\obj\Debug\ChangeArray.pdb
+C:\#Works\Xxx\ChangeArray\ChangeArray\bin\Debug\ChangeArray.exe.CodeAnalysisLog.xml
+C:\#Works\Xxx\ChangeArray\ChangeArray\bin\Debug\ChangeArray.exe.lastcodeanalysissucceeded
