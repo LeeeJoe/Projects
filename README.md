@@ -1,2 +1,2 @@
 # Projects
-My projects for EPAM Training 2019
+My projects for EPAM Training Spring.2019
