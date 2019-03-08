@@ -1,0 +1,7 @@
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\bin\Debug\MissingNumber.exe.config
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\bin\Debug\MissingNumber.exe
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\bin\Debug\MissingNumber.pdb
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\obj\Debug\MissingNumber.csprojAssemblyReference.cache
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\obj\Debug\MissingNumber.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\obj\Debug\MissingNumber.exe
+C:\#Works\Xxx\EPAM\MissingNumber\MissingNumber\obj\Debug\MissingNumber.pdb
