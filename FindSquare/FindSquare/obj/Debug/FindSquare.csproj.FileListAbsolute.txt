@@ -1,0 +1,7 @@
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\bin\Debug\FindSquare.exe.config
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\bin\Debug\FindSquare.exe
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\bin\Debug\FindSquare.pdb
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\obj\Debug\FindSquare.csprojAssemblyReference.cache
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\obj\Debug\FindSquare.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\obj\Debug\FindSquare.exe
+C:\#Works\Xxx\EPAM\FindSquare\FindSquare\obj\Debug\FindSquare.pdb
