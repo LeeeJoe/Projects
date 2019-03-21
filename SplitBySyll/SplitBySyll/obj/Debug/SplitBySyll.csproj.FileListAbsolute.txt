@@ -1,0 +1,13 @@
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.exe.config
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.exe
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.pdb
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.csprojResolveAssemblyReference.cache
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.exe
+\\EPESTC001TR\.NetTraining2019\Теория\Занятие 08 - Теория + Практика\Answers\Kuntsevich Vladimir\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.pdb
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.exe.config
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.exe
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\bin\Debug\SplitBySyll.pdb
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.csprojAssemblyReference.cache
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.csproj.CoreCompileInputs.cache
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.exe
+c:\#Works\Xxx\EPAM\SplitBySyll\SplitBySyll\obj\Debug\SplitBySyll.pdb
