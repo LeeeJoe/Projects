@@ -1,0 +1,7 @@
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\bin\Debug\SimpleParser.exe.config
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\bin\Debug\SimpleParser.exe
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\bin\Debug\SimpleParser.pdb
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\obj\Debug\SimpleParser.csprojAssemblyReference.cache
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\obj\Debug\SimpleParser.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\obj\Debug\SimpleParser.exe
+C:\#Works\Xxx\EPAM\SimpleParser\SimpleParser\obj\Debug\SimpleParser.pdb
