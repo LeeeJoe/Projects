@@ -1,0 +1,13 @@
+D:\KVLab\MyList\MyList\bin\Debug\MyList.exe.config
+D:\KVLab\MyList\MyList\bin\Debug\MyList.exe
+D:\KVLab\MyList\MyList\bin\Debug\MyList.pdb
+D:\KVLab\MyList\MyList\obj\Debug\MyList.csprojResolveAssemblyReference.cache
+D:\KVLab\MyList\MyList\obj\Debug\MyList.exe
+D:\KVLab\MyList\MyList\obj\Debug\MyList.pdb
+c:\#Works\Xxx\EPAM\MyList\MyList\bin\Debug\MyList.exe.config
+c:\#Works\Xxx\EPAM\MyList\MyList\bin\Debug\MyList.exe
+c:\#Works\Xxx\EPAM\MyList\MyList\bin\Debug\MyList.pdb
+c:\#Works\Xxx\EPAM\MyList\MyList\obj\Debug\MyList.csprojAssemblyReference.cache
+c:\#Works\Xxx\EPAM\MyList\MyList\obj\Debug\MyList.csproj.CoreCompileInputs.cache
+c:\#Works\Xxx\EPAM\MyList\MyList\obj\Debug\MyList.exe
+c:\#Works\Xxx\EPAM\MyList\MyList\obj\Debug\MyList.pdb
