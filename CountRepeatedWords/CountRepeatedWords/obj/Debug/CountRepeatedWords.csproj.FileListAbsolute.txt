@@ -1,0 +1,7 @@
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\bin\Debug\CountRepeatedWords.exe.config
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\bin\Debug\CountRepeatedWords.exe
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\bin\Debug\CountRepeatedWords.pdb
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\obj\Debug\CountRepeatedWords.csprojAssemblyReference.cache
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\obj\Debug\CountRepeatedWords.csproj.CoreCompileInputs.cache
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\obj\Debug\CountRepeatedWords.exe
+c:\#Works\Xxx\EPAM\CountRepeatedWords\CountRepeatedWords\obj\Debug\CountRepeatedWords.pdb
