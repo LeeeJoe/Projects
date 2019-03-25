@@ -89,21 +89,32 @@ namespace MySortedList
 
                 while (current.Next != null)
                 {
-                    Node<T> n1 = current;
-                    Node<T> n2 = current.Next;
-                    int I = n1.CompareTo(n2.Data);
+                    #region old variant
+                    //Node<T> n1 = current;
+                    //Node<T> n2 = current.Next;
+                    //int I = n1.CompareTo(n2.Data);
 
-                    if (I > 0)
+                    //if (I > 0)
+                    //{
+                    //    Node<T> node = new Node<T>() { Data = current.Data };
+                    //    current.Data = current.Next.Data;
+                    //    current.Next.Data = node.Data;
+                    //    current = current.Next;
+                    //}
+                    //else
+                    //{
+                    //    current = current.Next;
+                    //}
+                    #endregion
+
+                    if (current.CompareTo(current.Next.Data) > 0)
                     {
                         Node<T> node = new Node<T>() { Data = current.Data };
                         current.Data = current.Next.Data;
                         current.Next.Data = node.Data;
-                        current = current.Next;
                     }
-                    else
-                    {
-                        current = current.Next;
-                    }
+
+                    current = current.Next;
                 }
             }
         }
