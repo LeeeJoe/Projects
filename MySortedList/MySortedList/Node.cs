@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MySortedList
 {
-    class Node<T> : IComparable<T>, IComparer<T>
+    class Node<T> : IComparable<T>  //, IComparer<T> - old variant
     {
         private Node<T> next;
         public Node<T> Next
@@ -35,13 +35,16 @@ namespace MySortedList
 
         public int CompareTo(T other)
         {
-            return Compare(Data, other); 
+            Comparer<T> comparer = Comparer<T>.Default;
+            return comparer.Compare(Data, other); 
         }
 
-        public int Compare(T x, T y)
-        {
-            Comparer<T> comparer = Comparer<T>.Default;
-            return comparer.Compare(x, y);
-        }
+        #region old variant
+        //public int Compare(T x, T y)
+        //{
+        //    Comparer<T> comparer = Comparer<T>.Default;
+        //    return comparer.Compare(x, y);
+        //}
+        #endregion
     }
 }

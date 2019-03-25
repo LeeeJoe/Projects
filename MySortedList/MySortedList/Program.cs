@@ -73,7 +73,12 @@ namespace MySortedList
 
             Console.WriteLine($"Всего элементов: {sl3.Count}");
             Console.WriteLine(sl3.ToString());
-            
+
+            sl3.Add(new Person("Name003", 20));
+            sl3.Add(new Person("Name003", 28));
+
+            Console.WriteLine($"Всего элементов: {sl3.Count}");
+            Console.WriteLine(sl3.ToString());
         }
     }
 }
