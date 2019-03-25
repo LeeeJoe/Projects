@@ -1,0 +1,7 @@
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\bin\Debug\MySortedList.exe.config
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\bin\Debug\MySortedList.exe
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\bin\Debug\MySortedList.pdb
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\obj\Debug\MySortedList.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\obj\Debug\MySortedList.exe
+C:\#Works\Xxx\EPAM\MySortedList\MySortedList\obj\Debug\MySortedList.pdb
+c:\#Works\Xxx\EPAM\MySortedList\MySortedList\obj\Debug\MySortedList.csprojAssemblyReference.cache
