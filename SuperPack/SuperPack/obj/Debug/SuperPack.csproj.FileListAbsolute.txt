@@ -1,0 +1,7 @@
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\bin\Debug\SuperPack.exe.config
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\bin\Debug\SuperPack.exe
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\bin\Debug\SuperPack.pdb
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\obj\Debug\SuperPack.csprojAssemblyReference.cache
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\obj\Debug\SuperPack.csproj.CoreCompileInputs.cache
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\obj\Debug\SuperPack.exe
+C:\#Works\Xxx\EPAM\SuperPack\SuperPack\obj\Debug\SuperPack.pdb
