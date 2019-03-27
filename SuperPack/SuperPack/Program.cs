@@ -25,8 +25,8 @@ namespace SuperPack
             Console.WriteLine($"Count chars: {readyText.CountChars()}");
             Console.WriteLine($"Count bytes: {readyText.CountBytes()}");
             Console.WriteLine($"Count words: {readyText.CountWords()}");
+            Console.WriteLine($"Count words to pack: {readyText.CountWords(4, 1, show: false)}");
             Console.WriteLine($"Count sylls: {readyText.CountSylls()}");
-
             Console.WriteLine($"Count sylls to pack: {readyText.CountSylls(4, 1, show: false)}");
             Console.WriteLine($"Count base52: {readyText.CountBase("AA", show: false)}");
 

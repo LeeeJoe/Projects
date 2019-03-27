@@ -49,6 +49,7 @@ namespace SuperPack
 
         private SortedList<string, string> dicUnPack = new SortedList<string, string>();
 
+        
         private string[] arrWords;
         private string[] newWords;
 
@@ -115,6 +116,32 @@ namespace SuperPack
             return dicWords.Count;
         }
 
+        public int CountWords(int lengthMin, int countMin, bool show)
+        {
+            if (dicWords.Count == 0)
+            {
+                CountSylls();
+            }
+
+            string s = "";
+            int occure = 0;
+            int val = 0;
+
+            foreach (var k in dicWords.Keys)
+            {
+                if (k.Length >= lengthMin && dicWords[k] >= countMin)
+                {
+                    if (show) { s += k + " - " + dicWords[k] + Environment.NewLine; }
+                    occure++;
+                    val += dicWords[k];
+                }
+            }
+
+            if (show) { Console.WriteLine(s + "All occured: " + occure + " Count: " + val); }
+
+            return occure;
+        }
+
         public int CountSylls()
         {
             DoParse();
@@ -146,7 +173,10 @@ namespace SuperPack
 
         public int CountSylls(int lengthMin, int countMin, bool show)
         {
-            CountSylls();
+            if (dicSylls.Count == 0)
+            {
+                CountSylls();
+            }
 
             string s = "";
             int occure = 0;
@@ -222,7 +252,7 @@ namespace SuperPack
             {
                 if (k.Length >= lengthMin && dicSylls[k] >= countMin)
                 {
-                    dicPack.Add(k, currentBase52);
+                    dicPack.Add(k, "#" + currentBase52);
                     currentBase52 = GetNextBase52(currentBase52);
                 }
             }
@@ -308,7 +338,7 @@ namespace SuperPack
             {
                 try
                 {
-                    sw.WriteLine(text);
+                    sw.Write(text);
                 }
                 catch (Exception ex)
                 {
