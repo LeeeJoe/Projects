@@ -45,11 +45,8 @@ namespace SuperPack
 
         private SortedList<string, int> dicSylls = new SortedList<string, int>();
 
-        private SortedList<string, string> dicPack = new SortedList<string, string>();
+        private SortedList<string, string> dicPack = new SortedList<string, string>(new SComparer());
 
-        private SortedList<string, string> dicUnPack = new SortedList<string, string>();
-
-        
         private string[] arrWords;
         private string[] newWords;
 
@@ -244,26 +241,37 @@ namespace SuperPack
             return sb.ToString();
         }
 
-        public void CreatePackDictionary(int lengthMin, int countMin)
+        public enum PackSort
         {
-            currentBase52 = "AA";
+            ByWords = 0,
+            BySylls = 1
+        }
 
-            foreach (var k in dicSylls.Keys)
+        public void CreatePackDictionary(int lengthMin, int countMin, string base52, PackSort packSort)
+        {
+            currentBase52 = base52;
+
+            SortedList<string, int> dic = packSort == PackSort.ByWords ? dicWords : dicSylls;
+
+            for (int i = 0; i < dic.Keys.Count; i++)
             {
-                if (k.Length >= lengthMin && dicSylls[k] >= countMin)
+                if (dic.Keys[i].Length >= lengthMin && dic[dic.Keys[i]] >= countMin)
                 {
-                    dicPack.Add(k, "#" + currentBase52);
+                    dicPack.Add(dic.Keys[i], "#" + currentBase52);
                     currentBase52 = GetNextBase52(currentBase52);
                 }
             }
-        }
 
-        public void CreateUnPackDictionary()
-        {
-            foreach (var k in dicPack.Keys)
-            {
-                dicUnPack.Add(dicPack[k], k);
-            }
+            #region old variant
+            //foreach (var k in dic.Keys)
+            //{
+            //    if (k.Length >= lengthMin && dic[k] >= countMin)
+            //    {
+            //        dicPack.Add(k, "#" + currentBase52);
+            //        currentBase52 = GetNextBase52(currentBase52);
+            //    }
+            //}
+            #endregion
         }
 
         public enum PackAction
@@ -274,27 +282,48 @@ namespace SuperPack
 
         public string PackUnPackText(PackAction action, bool show)
         {
-            StringBuilder sb = new StringBuilder(text);
+            int capacity = text.Length * 2;
+            if (action == PackAction.UnPack)
+            {
+                capacity = text.Length * 4;
+            }
 
-            //SortedList<string, string> pairs = action == PackAction.Pack ? dicPack : dicUnPack;
+            StringBuilder sb = new StringBuilder(text, capacity);
+            
             SortedList<string, string> pairs = dicPack;
 
-            int count = 0;
-            foreach (var k in pairs.Keys)
+            for (int i = 0; i < pairs.Keys.Count; i++)
             {
                 if (action == PackAction.Pack)
                 {
-                    sb.Replace(k, pairs[k]);
+                    sb.Replace(pairs.Keys[i], pairs[pairs.Keys[i]]);
                 }
                 else
                 {
-                    sb.Replace(pairs[k], k);
+                    sb.Replace(pairs[pairs.Keys[i]], pairs.Keys[i]);
                 }
-                
-                count++;
 
-                if (show) { Console.Write($"Processed pairs: {count}\r"); }
+                if (show) { Console.Write($"Processed pairs: {i + 1}\r"); }
             }
+
+            #region old variant
+            //int count = 0;
+            //foreach (var k in pairs.Keys)
+            //{
+            //    if (action == PackAction.Pack)
+            //    {
+            //        sb.Replace(k, pairs[k]);
+            //    }
+            //    else
+            //    {
+            //        sb.Replace(pairs[k], k);
+            //    }
+
+            //    count++;
+
+            //    if (show) { Console.Write($"Processed pairs: {count}\r"); }
+            //}
+            #endregion
 
             if (show) Console.WriteLine();
 
@@ -504,6 +533,20 @@ namespace SuperPack
         private static void Message(string message)
         {
             Console.WriteLine(message);
+        }
+
+        public static void Log(string logMessage)
+        {
+            if (String.IsNullOrEmpty(logMessage) || logMessage == Environment.NewLine)
+            {
+                Console.WriteLine();
+            }
+            else
+            {
+                string timeStr = DateTime.Now.ToString("HH:mm:ss.ffffff");
+                string message = "[" + timeStr + "]: " + logMessage;
+                Console.WriteLine(message);
+            }
         }
 
         public string GetDumpText()
